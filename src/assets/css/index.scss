@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Spartan:wght@400;700&display=swap");
+@import "./colors";
+
+body {
+  background-color: $background-color;
+  padding: 0 24px;
+  padding-top: 16px;
+}
+
+p {
+  font-family: "Spartan", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: "Antonio", sans-serif;
+  font-size: 80px;
+  line-height: 103px;
+}
+
+h2 {
+  font-family: "Antonio", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+}
+h3 {
+  font-family: "Spartan", sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 2.6px;
+  font-weight: 700;
+}
+h4 {
+  font-family: "Spartan", sans-serif;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    span {
+      font-family: "Antonio", sans-serif;
+      color: white;
+      font-size: 28px;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+  }
+
+  .hamburger {
+    div {
+      width: 24px;
+      height: 3px;
+      background-color: white;
+      margin: 4px 0;
+    }
+  }
+}
+
+nav {
+  .nav-menu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+    
+
+    .nav-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+      }
+      .name {
+        color: white;
+        letter-spacing: 1.36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        flex-grow: 2;
+        padding-left: 25px;
+        border-bottom: 1px solid rgba(#979797,0.1);
+      }
+    }
+  }
+}
