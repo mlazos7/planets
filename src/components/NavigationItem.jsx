@@ -4,7 +4,7 @@ import { RiArrowRightSLine } from 'react-icons/ri';
 const NavigationItem = ({ color, name, to }) => {
 
   const colorStyle = {
-      'background-color': color,
+      'backgroundColor': color,
   }
   return (
     <div className="nav-item">

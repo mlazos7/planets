@@ -1,1 +1,7 @@
 $background-color: #070724;
+$line-color: rgba(#979797,0.2);
+$line-color-inactive: rgba(#FFFFFF,0.5);
+
+:export {
+    color: $line-color-inactive;
+}
